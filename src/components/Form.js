@@ -24,7 +24,7 @@ class Form extends Component{
     render(){
         return(
             <div className="form">
-                <h1>This is a Form</h1>
+                <h1>To do List</h1>
                 <form onSubmit={this.onSubmit}>
                     <label htmlFor="task">Task</label>
                     <input type="text" onChange={this.onChange} value={this.state.task} name="task"/>
